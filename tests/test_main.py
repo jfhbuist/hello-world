@@ -1,7 +1,6 @@
-import pytest
+# tests
 
-def test_hello(capfd):    
+def test_hello(capfd):
     import hello
     out, err = capfd.readouterr()
-    assert out == "Hello World!\n"    
-    
+    assert out == "Hello World!\n"
