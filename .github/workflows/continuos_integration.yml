@@ -1,9 +1,10 @@
-name: Python package
+name: Continuous Integration
 
 on: 
   push:
     branches:
       - master
+  pull_request:
 
 jobs:
   build:
@@ -11,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.8", "3.9", "3.10"]
+        python-version: ["3.8", "3.10"]
 
     steps:
       - uses: actions/checkout@v3
