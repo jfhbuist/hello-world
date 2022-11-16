@@ -1,10 +1,5 @@
 ### General
 
-# Specific:
-notes.txt
-scraps.txt
-tmp*
-
 # Exclude large files
 *.mp4
 *.tar
@@ -170,3 +165,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Editor settings
+.vscode/*
