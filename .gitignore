@@ -9,11 +9,16 @@
 *.ppm
 *.avi
 *.mov
-# Exclude Mac files
+
+# Exclude MacOS files
 *.DS_Store
+
 # Exclude text editor backup files
 *~
 *.swp
+
+# Editor settings
+.vscode/
 
 ### Tex
 
@@ -27,6 +32,7 @@
 *.run.xml
 *.synctex.gz
 *.spl
+
 # Exclude extra latex build files
 *.dvi
 *.nav
@@ -165,6 +171,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# Editor settings
-.vscode/
